@@ -18,14 +18,15 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     color: var(--text-color);
     background-color: var(--light-grey);
     line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
 }
 
 /* Header & Nav */
@@ -149,22 +150,24 @@ h1, h2, h3, h4 {
 }
 
 .menu-item-content {
-    padding: 1rem;
+    padding: 1.5rem;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
 .menu-item-title {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
 }
 
 .menu-item-desc {
-    font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1.5rem;
     flex-grow: 1;
+    line-height: 1.5;
 }
 
 .menu-item-footer {
