@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zico's Pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="logo">Zico's Pizza</h1>
+            <nav class="nav">
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Authentic Italian Pizza</h2>
+                <p>Delivered hot and fresh to your door.</p>
+                <a href="#menu" class="btn-primary">Order Now</a>
+            </div>
+        </section>
+
+        <div class="app-container">
+            <section id="menu" class="menu-section">
+                <h3 class="section-title">Our Menu</h3>
+                <div id="menu-container" class="menu-grid">
+                    <!-- Menu items will be injected here by app.js -->
+                </div>
+            </section>
+
+            <aside class="cart-section">
+                <div class="cart-sticky">
+                    <h3 class="section-title">Your Order</h3>
+                    <div id="cart" class="cart-container">
+                        <!-- Cart items will be injected here by app.js -->
+                        <div class="empty-cart-msg">Your cart is empty</div>
+                    </div>
+                    <div class="cart-summary">
+                        <div class="cart-total">
+                            <span>Total:</span>
+                            <span id="total-price">$0.00</span>
+                        </div>
+                        <button id="checkout-btn" class="btn-checkout" disabled>Checkout</button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Zico's Pizza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
